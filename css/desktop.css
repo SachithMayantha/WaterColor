@@ -1,0 +1,139 @@
+body{
+	background:#f9f7e8 url(../images/bg.gif) repeat-x;
+}
+#header{
+	width:960px;
+	height:200px;
+	margin: 0 auto;
+	position:relative;
+}
+#logo{
+	position:absolute;
+	left:10px;
+	bottom:20px;
+}
+#search_form{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+#menu_bar{
+	position:absolute;
+	right:10px;
+	bottom:20px;
+}
+#menu_bar li{
+	display:inline-block;
+}
+a{
+	color:#665D4E;
+	text-decoration:none;
+	font-size:1.1em;
+	font-family: 'Oswald', sans-serif;
+}
+#menu_bar a:hover{
+	color:#FF5722;
+}
+#slideshow{
+	width:960px;
+	height:355px;
+	margin: 0 auto;
+}
+.slide{
+	border:5px solid #fff;
+	box-shadow:1px 1px #888888;
+	border-radius:10px;
+}
+#title{
+	width:960px;
+	height:60px;
+	margin: 0 auto;
+}	
+#title h1{	
+	font-family: 'Oswald', sans-serif;
+	text-align:center;
+	color:#9E9E9E;
+}
+#content{
+	width:960px;
+	height:500px;
+	margin: 0 auto; 
+}
+.block1 {
+	height:300px;
+	width:313px;
+	float:left;
+	margin-right:10px;
+}
+.last{
+	margin-right:0px !important;
+}
+.block1{
+	font-family:'Oswald', sans-serif;
+	color:#665D4E;
+}
+.block1 img{
+	width:306px;
+	border:3px solid #fff;
+	border-radius:5px;
+	box-shadow:1px 1px #888888;
+}
+.block1 h2{
+	font-family:'Oswald', sans-serif;
+	color:#665D4E;
+	border-bottom:2px solid black;
+	
+}
+.block1 h2:hover{
+	color:#E64A19;
+}
+.block1 p{
+	font-family:Arial;
+	color:#665D4E;
+}
+
+#footer{
+	width:100%;
+	height:300px;
+	background:url(../img/spring/footer-bg.png) repeat-x #777264 ;
+}
+#footer_content{
+	width:960px;
+	margin:0 auto;
+}
+.block2{
+	width:239px;
+	height:200px;
+	border-right:1px solid #fff;
+	float:left;
+	margin-top:20px;
+	text-align:center;
+}
+.last{
+	border-right:none;
+}
+.block2 ul{
+	margin:0;
+	padding:0;
+}
+.block2 ul li{
+	list-style-type:none;
+	font-family:Arial;
+}
+.block2 a{
+	color:;
+	text-decoration:none;
+}
+.block2 h3{
+	color:#fff;
+	font-family:'Oswald', sans-serif;
+}
+.block2 a:hover{
+	text-decoration:underline;
+}
+#copy{
+	text-align:center;
+	color:gray;
+	font-family:Arial;
+	line-height:;
+}
